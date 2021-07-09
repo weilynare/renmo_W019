@@ -15,6 +15,7 @@
 		</Item>
 		<Item Name="mes" Type="Folder">
 			<Item Name="保存mes.vi" Type="VI" URL="../子vi/mes/保存mes.vi"/>
+			<Item Name="时间计算.vi" Type="VI" URL="../子vi/mes/时间计算.vi"/>
 			<Item Name="是否保存.vi" Type="VI" URL="../子vi/mes/是否保存.vi"/>
 		</Item>
 		<Item Name="modbus" Type="Folder">
@@ -194,7 +195,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F8379E6-F4DF-4F19-881C-A12D2AA0041F}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">仁莫密封检测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
