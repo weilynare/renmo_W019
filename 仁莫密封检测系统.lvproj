@@ -15,8 +15,10 @@
 		</Item>
 		<Item Name="mes" Type="Folder">
 			<Item Name="保存mes.vi" Type="VI" URL="../子vi/mes/保存mes.vi"/>
+			<Item Name="持续时间&amp;充气时间.vi" Type="VI" URL="../子vi/mes/持续时间&amp;充气时间.vi"/>
 			<Item Name="时间计算.vi" Type="VI" URL="../子vi/mes/时间计算.vi"/>
 			<Item Name="是否保存.vi" Type="VI" URL="../子vi/mes/是否保存.vi"/>
+			<Item Name="运行状态时间点索引.vi" Type="VI" URL="../子vi/mes/运行状态时间点索引.vi"/>
 		</Item>
 		<Item Name="modbus" Type="Folder">
 			<Item Name="保持寄存器解析.vi" Type="VI" URL="../子vi/modbus/保持寄存器解析.vi"/>
@@ -179,6 +181,102 @@
 			<Item Name="注册.vi" Type="VI" URL="../子vi/用户登录/注册.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
+			<Item Name="密封检测系统" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">箱体气密检测</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{F12C6F92-5B1C-4EAB-9364-96026CE1920D}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-Serial运行引擎 20.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{944CC86F-BDFB-4850-878C-370B9A7FF12C}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA运行引擎 20.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{1CB9B79D-FBCA-43F4-B990-65BD2145BDD0}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW运行引擎2015</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW运行引擎 2015非英语语言支持</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{128ABF1E-5F69-40D1-8A81-33DCF8229F08}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX容器</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI部署框架2015</Property>
+				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[2].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[12].productName" Type="Str">NI错误报告2015</Property>
+				<Property Name="DistPart[2].SoftDep[12].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI系统Web服务器 15.0</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">数学核心库</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{4C0854AD-9BFC-4494-A4E0-D96C0C07F1F2}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 15.0</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 15.0</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Web服务器 2015</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{78AAB900-C712-11E3-9C1A-0800200C9A66}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2015</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{25643B9A-90E8-4100-B30C-10EC4DE2EE68}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">PTM</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../renmo_W019/setup</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">密封检测系统</Property>
+				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">仁莫密封检测系统</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15008024</Property>
+				<Property Name="MSI_arpCompany" Type="Str">renmotech</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.renmotech.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{D43859AD-71C2-4112-A58B-CC40C3B242D1}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{EF8D00BA-6824-48D4-8783-804BD3FA9B28}</Property>
+				<Property Name="MSI_windowTitle" Type="Str">欢迎安装仁莫电子科技软件！</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">仁莫密封检测系统.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">仁莫密封检测系统</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">仁莫密封检测系统</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{36170086-7C61-4DD9-BE88-841A546C01C8}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">仁莫密封检测系统</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/仁莫密封检测系统</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
 			<Item Name="仁莫密封检测系统" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{97929429-3D7A-4C7B-AF26-BC870A819565}</Property>
@@ -195,7 +293,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F8379E6-F4DF-4F19-881C-A12D2AA0041F}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">仁莫密封检测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
@@ -228,101 +326,6 @@
 				<Property Name="TgtF_productName" Type="Str">仁莫密封检测系统</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{36170086-7C61-4DD9-BE88-841A546C01C8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">仁莫密封检测系统.exe</Property>
-			</Item>
-			<Item Name="箱体气密性检测" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">箱体气密检测</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{AD0D6322-6E99-4244-BF1E-F2FBB67C70B2}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI-Serial运行引擎 18.5</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-VISA运行引擎 18.5</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{B6FFEFB4-D308-486A-A300-1AB4165C9E6C}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW运行引擎2015 SP1 f13</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX容器</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI部署框架2015</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2015</Property>
-				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{25643B9A-90E8-4100-B30C-10EC4DE2EE68}</Property>
-				<Property Name="DistPart[2].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[11].productName" Type="Str">NI系统Web服务器 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[11].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[2].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[12].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[12].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI错误报告2015</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW运行引擎 2015 SP1非英语语言支持</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{128ABF1E-5F69-40D1-8A81-33DCF8229F08}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI LabVIEW Web服务器 2015</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{78AAB900-C712-11E3-9C1A-0800200C9A66}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">数学核心库</Property>
-				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{4C0854AD-9BFC-4494-A4E0-D96C0C07F1F2}</Property>
-				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">13</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
-				<Property Name="INST_author" Type="Str">PTM</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../气密防水检测_W019/箱体setup</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">箱体气密性检测</Property>
-				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="INST_language" Type="Int">2052</Property>
-				<Property Name="INST_productName" Type="Str">箱体气密性检测</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15008029</Property>
-				<Property Name="MSI_arpCompany" Type="Str">renmotech</Property>
-				<Property Name="MSI_arpURL" Type="Str">http://www.renmotech.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{D43859AD-71C2-4112-A58B-CC40C3B242D1}</Property>
-				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{EF8D00BA-6824-48D4-8783-804BD3FA9B28}</Property>
-				<Property Name="MSI_windowTitle" Type="Str">欢迎安装仁莫电子科技软件！</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{4087A380-8EB8-48E1-85F4-1712691CEFEB}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">箱体气密检测.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">箱体气密检测</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">箱体气密检测</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{36170086-7C61-4DD9-BE88-841A546C01C8}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">箱体气密检测</Property>
-				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/仁莫密封检测系统</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
