@@ -1,0 +1,54 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductParaColloctUniversalService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:productParaColloctUniversal>
+         <!--Optional:-->
+         <tem:vo>
+            <!--Optional:-->
+            <cal:completeQty></cal:completeQty>
+            <!--Optional:-->
+            <cal:equipNum>ZSJD-MZ-001</cal:equipNum>
+            <!--Optional:-->
+            <cal:identification>0B5CEB1M56BA2JAC20210201</cal:identification>
+            <!--Optional:-->
+            <cal:productType>STANDARD</cal:productType>
+            <!--Optional:-->
+            <cal:qualityStatus>OK</cal:qualityStatus>
+            <!--Optional:-->
+            <cal:recordDate>2021-02-01 08:56:00</cal:recordDate>
+            <!--Optional:-->
+            <cal:siteCode>1002-M-01</cal:siteCode>
+            <!--Optional:-->
+            <cal:tagData>
+               <!--Zero or more repetitions:-->
+               <cal:TagDataVO>
+                  <!--Optional:-->
+                  <cal:tagCode>OCV_OCV</cal:tagCode>
+                  <!--Optional:-->
+                  <cal:tagValue>3.9274</cal:tagValue>
+               </cal:TagDataVO>
+  <cal:TagDataVO>
+                  <!--Optional:-->
+                  <cal:tagCode>OCV_ACR</cal:tagCode>
+                  <!--Optional:-->
+                  <cal:tagValue>0.271</cal:tagValue>
+               </cal:TagDataVO>
+  <cal:TagDataVO>
+                  <!--Optional:-->
+                  <cal:tagCode>OCV_K2</cal:tagCode>
+                  <!--Optional:-->
+                  <cal:tagValue>0.000005</cal:tagValue>
+               </cal:TagDataVO>
+
+               
+            </cal:tagData>
+            <!--Optional:-->
+            <cal:testOrderNum></cal:testOrderNum>
+            <!--Optional:-->
+            <cal:userName>wyz</cal:userName>
+         </tem:vo>
+      </tem:productParaColloctUniversal>
+   </soapenv:Body>
+</soapenv:Envelope>
+
