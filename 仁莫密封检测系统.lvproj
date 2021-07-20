@@ -43,7 +43,9 @@
 			<Item Name="Global.vi" Type="VI" URL="../子vi/Global.vi"/>
 			<Item Name="mes~Login Dialog.vi" Type="VI" URL="../子vi/用户登录/mes~Login Dialog.vi"/>
 			<Item Name="mes~产品出站.vi" Type="VI" URL="../子vi/mes/mes~产品出站.vi"/>
+			<Item Name="mes~产品加工参数采集.vi" Type="VI" URL="../子vi/mes/mes~产品加工参数采集.vi"/>
 			<Item Name="mes~产品进站.vi" Type="VI" URL="../子vi/mes/mes~产品进站.vi"/>
+			<Item Name="mes~设备状态采集.vi" Type="VI" URL="../子vi/mes/mes~设备状态采集.vi"/>
 			<Item Name="用户登录.vi" Type="VI" URL="../子vi/用户登录/用户登录.vi"/>
 		</Item>
 		<Item Name="仁莫密封检测系统.vi" Type="VI" URL="../仁莫密封检测系统.vi"/>
@@ -534,6 +536,7 @@
 				<Item Name="XML Structure - Cluster__JKI EasyXML.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Structure - Cluster__JKI EasyXML.ctl"/>
 				<Item Name="XML Tag Type - Enum__JKI EasyXML.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Tag Type - Enum__JKI EasyXML.ctl"/>
 			</Item>
+			<Item Name="log.vi" Type="VI" URL="../子vi/log.vi"/>
 			<Item Name="读保持寄存器.vi" Type="VI" URL="../子vi/modbus/读保持寄存器.vi"/>
 			<Item Name="读取配置文件.vi" Type="VI" URL="../子vi/config/读取配置文件.vi"/>
 			<Item Name="读线圈组.vi" Type="VI" URL="../子vi/modbus/读线圈组.vi"/>
