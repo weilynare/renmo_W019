@@ -41,6 +41,7 @@
 		</Item>
 		<Item Name="子vi" Type="Folder">
 			<Item Name="Global.vi" Type="VI" URL="../子vi/Global.vi"/>
+			<Item Name="log.vi" Type="VI" URL="../子vi/log.vi"/>
 			<Item Name="mes~Login Dialog.vi" Type="VI" URL="../子vi/用户登录/mes~Login Dialog.vi"/>
 			<Item Name="mes~产品出站.vi" Type="VI" URL="../子vi/mes/mes~产品出站.vi"/>
 			<Item Name="mes~产品加工参数采集.vi" Type="VI" URL="../子vi/mes/mes~产品加工参数采集.vi"/>
@@ -536,7 +537,6 @@
 				<Item Name="XML Structure - Cluster__JKI EasyXML.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Structure - Cluster__JKI EasyXML.ctl"/>
 				<Item Name="XML Tag Type - Enum__JKI EasyXML.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Tag Type - Enum__JKI EasyXML.ctl"/>
 			</Item>
-			<Item Name="log.vi" Type="VI" URL="../子vi/log.vi"/>
 			<Item Name="读保持寄存器.vi" Type="VI" URL="../子vi/modbus/读保持寄存器.vi"/>
 			<Item Name="读取配置文件.vi" Type="VI" URL="../子vi/config/读取配置文件.vi"/>
 			<Item Name="读线圈组.vi" Type="VI" URL="../子vi/modbus/读线圈组.vi"/>
@@ -657,7 +657,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F8379E6-F4DF-4F19-881C-A12D2AA0041F}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">仁莫密封检测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
