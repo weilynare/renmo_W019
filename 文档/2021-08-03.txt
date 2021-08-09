@@ -1,0 +1,407 @@
+
+StartTime=14:05:20
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum/>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode/>
+        <cal:userName>12345</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数equipNum为空，请检查！【API:calbUserRightVerifyInput】</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=14:05:23
+TotalTime=2516ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 511
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 06:05:44 GMT
+
+
+StartTime=14:07:15
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum/>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode/>
+        <cal:userName>12345</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数equipNum为空，请检查！【API:calbUserRightVerifyInput】</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=14:07:15
+TotalTime=145ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 511
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 06:07:37 GMT
+
+
+StartTime=14:10:43
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>12345</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0218</a:ErrorCode><a:ErrorMessage>当前登录账号：12345在系统中不存在或已失效，请检查！</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=14:10:43
+TotalTime=79ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 510
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 06:10:57 GMT
+
+
+StartTime=14:32:45
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>12345</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0218</a:ErrorCode><a:ErrorMessage>当前登录账号：12345在系统中不存在或已失效，请检查！</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=14:32:45
+TotalTime=74ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 510
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 06:32:44 GMT
+
+
+StartTime=15:29:21
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=
+EndTime=15:29:21
+TotalTime=5ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=
+StartTime=15:29:55
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=
+EndTime=15:29:55
+TotalTime=14ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=
+StartTime=15:30:19
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=
+EndTime=15:30:19
+TotalTime=13ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=
+StartTime=15:32:14
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:32:15
+TotalTime=111ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:32:14 GMT
+
+
+StartTime=15:32:20
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:32:20
+TotalTime=103ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:32:20 GMT
+
+
+StartTime=15:36:29
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum/>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode/>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数equipNum为空，请检查！【API:calbUserRightVerifyInput】</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:36:31
+TotalTime=2017ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 511
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:36:31 GMT
+
+
+StartTime=15:36:36
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum/>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode/>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数equipNum为空，请检查！【API:calbUserRightVerifyInput】</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:36:36
+TotalTime=53ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 511
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:36:35 GMT
+
+
+StartTime=15:36:56
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum/>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode/>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数equipNum为空，请检查！【API:calbUserRightVerifyInput】</a:ErrorMessage><a:Success>-1</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:36:56
+TotalTime=71ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 511
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:36:56 GMT
+
+
+StartTime=15:39:27
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:39:27
+TotalTime=90ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:39:26 GMT
+
+
+StartTime=15:46:43
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>11111111111111</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode xmlns:a="http://schemas.microsoft.com/ws/2005/05/addressing/none">a:ActionNotSupported</faultcode><faultstring xml:lang="zh-CN">由于 ContractFilter 在 EndpointDispatcher 不匹配，因此 Action 为“http://tempuri.org/IUserRightVerifyServiceImpl/UserRightVerify”的消息无法在接收方处理。这可能是由于协定不匹配(发送方和接收方 Action 不匹配)或发送方和接收方绑定/安全不匹配。请检查发送方和接收方是否具有相同的协定和绑定(包括安全要求，如 Message、Transport、None)。</faultstring></s:Fault></s:Body></s:Envelope>
+EndTime=15:46:43
+TotalTime=19ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=
+StartTime=15:52:47
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=15:52:49
+TotalTime=1995ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Tue, 03 Aug 2021 07:52:48 GMT
+
+
+StartTime=15:53:18
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification/>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode xmlns:a="http://schemas.microsoft.com/ws/2005/05/addressing/none">a:ActionNotSupported</faultcode><faultstring xml:lang="zh-CN">由于 ContractFilter 在 EndpointDispatcher 不匹配，因此 Action 为“http://tempuri.org/IUserRightVerifyServiceImpl/UserRightVerify”的消息无法在接收方处理。这可能是由于协定不匹配(发送方和接收方 Action 不匹配)或发送方和接收方绑定/安全不匹配。请检查发送方和接收方是否具有相同的协定和绑定(包括安全要求，如 Message、Transport、None)。</faultstring></s:Fault></s:Body></s:Envelope>
+EndTime=15:53:18
+TotalTime=8ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=
+StartTime=15:53:30
+���ͱ���=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>11111111111111</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+��Ӧ����=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode xmlns:a="http://schemas.microsoft.com/ws/2005/05/addressing/none">a:ActionNotSupported</faultcode><faultstring xml:lang="zh-CN">由于 ContractFilter 在 EndpointDispatcher 不匹配，因此 Action 为“http://tempuri.org/IUserRightVerifyServiceImpl/UserRightVerify”的消息无法在接收方处理。这可能是由于协定不匹配(发送方和接收方 Action 不匹配)或发送方和接收方绑定/安全不匹配。请检查发送方和接收方是否具有相同的协定和绑定(包括安全要求，如 Message、Transport、None)。</faultstring></s:Fault></s:Body></s:Envelope>
+EndTime=15:53:30
+TotalTime=12ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=
