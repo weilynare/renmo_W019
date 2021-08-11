@@ -1,0 +1,570 @@
+
+StartTime=20:24:00
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=20:24:02
+TotalTime=2304ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:24:18 GMT
+
+
+StartTime=20:24:22
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000003</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数工厂代码【siteCode】为空，请检查！</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:24:22
+TotalTime=122ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 471
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:24:38 GMT
+
+
+StartTime=20:24:49
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数工厂代码【siteCode】为空，请检查！</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:24:49
+TotalTime=115ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 471
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:25:04 GMT
+
+
+StartTime=20:27:18
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>234</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数工厂代码【siteCode】为空，请检查！</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:27:19
+TotalTime=127ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 471
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:27:34 GMT
+
+
+StartTime=20:41:59
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=20:42:01
+TotalTime=2167ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:42:16 GMT
+
+
+StartTime=20:42:24
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification/>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0001</a:ErrorCode><a:ErrorMessage>输入参数成品条码【identification】为空，请检查！</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:42:24
+TotalTime=18ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 477
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:42:40 GMT
+
+
+StartTime=20:43:06
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000003</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000003当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:43:06
+TotalTime=300ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:43:22 GMT
+
+
+StartTime=20:44:13
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:44:14
+TotalTime=546ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 403
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:44:29 GMT
+
+
+StartTime=20:44:27
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:44:28
+TotalTime=220ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 403
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:44:43 GMT
+
+
+StartTime=20:48:30
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductParaColloctUniversalService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:productParaColloctUniversal>
+      <tem:vo>
+        <cal:completeQty/>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:qualityStatus>PASS</cal:qualityStatus>
+        <cal:recordDate>2021-08-11 20:48:29</cal:recordDate>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:tagData>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_LEAKAGE</cal:tagCode>
+            <cal:tagValue>1.0</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_INFLATE_PRESSURE</cal:tagCode>
+            <cal:tagValue>7457</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_INFLATE_TIME</cal:tagCode>
+            <cal:tagValue>62.36</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MAINTAIN_PRESSURE</cal:tagCode>
+            <cal:tagValue>12354</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MAINTAIN_PRESSURE_TIME</cal:tagCode>
+            <cal:tagValue>110.06</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MEASURE_TIME</cal:tagCode>
+            <cal:tagValue>234.0</cal:tagValue>
+          </cal:TagDataVO>
+        </cal:tagData>
+        <cal:testOrderNum/>
+        <cal:userName>123456</cal:userName>
+      </tem:vo>
+    </tem:productParaColloctUniversal>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><productParaColloctUniversalResponse xmlns="http://tempuri.org/"><productParaColloctUniversalResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></productParaColloctUniversalResult></productParaColloctUniversalResponse></s:Body></s:Envelope>
+EndTime=20:48:30
+TotalTime=428ms
+URL=http://10.69.1.58:10021/ws/productParaColloctUniversalWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 475
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:48:46 GMT
+
+
+StartTime=20:48:30
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbOutStationCommonService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:outStationService>
+      <tem:model>
+        <cal:completeQty/>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identiftyList>
+          <cal:OutStationVO1>
+            <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+            <cal:qualityStatus>OK</cal:qualityStatus>
+          </cal:OutStationVO1>
+        </cal:identiftyList>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:testOrderNum/>
+      </tem:model>
+    </tem:outStationService>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><outStationServiceResponse xmlns="http://tempuri.org/"><outStationServiceResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></outStationServiceResult></outStationServiceResponse></s:Body></s:Envelope>
+EndTime=20:48:31
+TotalTime=774ms
+URL=http://10.69.1.58:10022/ws/OutStationCommonWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 435
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:48:46 GMT
+
+
+StartTime=20:55:20
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProductParaColloctUniversalService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:productParaColloctUniversal>
+      <tem:vo>
+        <cal:completeQty/>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:qualityStatus>PASS</cal:qualityStatus>
+        <cal:recordDate>2021-08-11 20:55:19</cal:recordDate>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:tagData>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_LEAKAGE</cal:tagCode>
+            <cal:tagValue>13.2</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_INFLATE_PRESSURE</cal:tagCode>
+            <cal:tagValue>3425</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_INFLATE_TIME</cal:tagCode>
+            <cal:tagValue>60.04</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MAINTAIN_PRESSURE</cal:tagCode>
+            <cal:tagValue>12338</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MAINTAIN_PRESSURE_TIME</cal:tagCode>
+            <cal:tagValue>109.61</cal:tagValue>
+          </cal:TagDataVO>
+          <cal:TagDataVO>
+            <cal:tagCode>SYSTEM_COLING_MEASURE_TIME</cal:tagCode>
+            <cal:tagValue>234.7</cal:tagValue>
+          </cal:TagDataVO>
+        </cal:tagData>
+        <cal:testOrderNum/>
+        <cal:userName>123456</cal:userName>
+      </tem:vo>
+    </tem:productParaColloctUniversal>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><productParaColloctUniversalResponse xmlns="http://tempuri.org/"><productParaColloctUniversalResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></productParaColloctUniversalResult></productParaColloctUniversalResponse></s:Body></s:Envelope>
+EndTime=20:55:20
+TotalTime=157ms
+URL=http://10.69.1.58:10021/ws/productParaColloctUniversalWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 475
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:55:36 GMT
+
+
+StartTime=20:55:20
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbOutStationCommonService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:outStationService>
+      <tem:model>
+        <cal:completeQty/>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identiftyList>
+          <cal:OutStationVO1>
+            <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+            <cal:qualityStatus>OK</cal:qualityStatus>
+          </cal:OutStationVO1>
+        </cal:identiftyList>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:testOrderNum/>
+      </tem:model>
+    </tem:outStationService>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><outStationServiceResponse xmlns="http://tempuri.org/"><outStationServiceResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0060</a:ErrorCode><a:ErrorMessage>条码:{0B5PBH0000A11JB7G0000004},该产品条码eoId:6046933.1在本工序下的步骤状态不为排队，请检查！【API:materialOutStationVerify】,</a:ErrorMessage><a:Success>-1</a:Success></outStationServiceResult></outStationServiceResponse></s:Body></s:Envelope>
+EndTime=20:55:20
+TotalTime=199ms
+URL=http://10.69.1.58:10022/ws/OutStationCommonWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 599
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:55:36 GMT
+
+
+StartTime=20:56:01
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000003</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000003当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:56:01
+TotalTime=111ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:56:16 GMT
+
+
+StartTime=20:56:14
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000004当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:56:14
+TotalTime=144ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:56:29 GMT
+
+
+StartTime=20:56:23
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000004当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:56:23
+TotalTime=115ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:56:39 GMT
+
+
+StartTime=20:59:00
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbUserRightVerifyService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:UserRightVerify>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:passWord>12345678</cal:passWord>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+        <cal:userName>123456</cal:userName>
+      </tem:model>
+    </tem:UserRightVerify>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UserRightVerifyResponse xmlns="http://tempuri.org/"><UserRightVerifyResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>200</a:ErrorCode><a:ErrorMessage>成功</a:ErrorMessage><a:Success>0</a:Success></UserRightVerifyResult></UserRightVerifyResponse></s:Body></s:Envelope>
+EndTime=20:59:01
+TotalTime=1819ms
+URL=http://10.69.1.58:10010/ws/userRightVerifyWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 427
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:59:17 GMT
+
+
+StartTime=20:59:19
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000004</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000004当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=20:59:19
+TotalTime=146ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 12:59:35 GMT
+
+
+StartTime=21:00:23
+发送报文=<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbProCommonInStationService">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <tem:ProCommon>
+      <tem:model>
+        <cal:equipNum>ZSJD-PK-007</cal:equipNum>
+        <cal:identification>0B5PBH0000A11JB7G0000003</cal:identification>
+        <cal:productType>TEST</cal:productType>
+        <cal:siteCode>1002-M-01</cal:siteCode>
+      </tem:model>
+    </tem:ProCommon>
+  </soapenv:Body>
+</soapenv:Envelope>
+响应报文=<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ProCommonResponse xmlns="http://tempuri.org/"><ProCommonResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:ErrorCode>CALB_MESSAGE_0078</a:ErrorCode><a:ErrorMessage>该产品0B5PBH0000A11JB7G0000003当前状态不为排队中，请检查！【API:calbInStationProcessComplianceVerify】</a:ErrorMessage><a:Success>-1</a:Success></ProCommonResult></ProCommonResponse></s:Body></s:Envelope>
+EndTime=21:00:23
+TotalTime=118ms
+URL=http://10.69.1.58:10013/ws/proCommonInStationWcf?wsdl
+
+Header=HTTP/1.1 200 OK
+Content-Length: 533
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-HTTPAPI/2.0
+Date: Wed, 11 Aug 2021 13:00:38 GMT
+
