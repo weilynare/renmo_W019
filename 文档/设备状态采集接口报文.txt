@@ -1,0 +1,41 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:cal="http://schemas.datacontract.org/2004/07/CalbEquipStatusCollectService" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:EquipStatusCollect>
+         <!--Optional:-->
+         <tem:vo>
+            <!--Optional:-->
+            <cal:equipNum>?</cal:equipNum>
+            <!--Optional:-->
+            <cal:faultCodes>
+               <!--Zero or more repetitions:-->
+               <arr:string>?</arr:string>
+            </cal:faultCodes>
+            <!--Optional:-->
+            <cal:recordDate>?</cal:recordDate>
+            <!--Optional:-->
+            <cal:remarks>?</cal:remarks>
+            <!--Optional:-->
+            <cal:siteCode>?</cal:siteCode>
+            <!--Optional:-->
+            <cal:statusCode>?</cal:statusCode>
+            <!--Optional:-->
+            <cal:userName>?</cal:userName>
+         </tem:vo>
+      </tem:EquipStatusCollect>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+-_————--报文
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <EquipStatusCollectResponse xmlns="http://tempuri.org/">
+         <EquipStatusCollectResult xmlns:a="http://schemas.datacontract.org/2004/07/EdgeUtility" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:ErrorCode>CALB_MESSAGE_0002</a:ErrorCode>
+            <a:ErrorMessage>不存在有效工厂数据?，请检查！【API:equipStatusCollectSave】</a:ErrorMessage>
+            <a:Success>-1</a:Success>
+         </EquipStatusCollectResult>
+      </EquipStatusCollectResponse>
+   </s:Body>
+</s:Envelope>

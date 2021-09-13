@@ -32,6 +32,7 @@
 			<Item Name="SOAP解析.vi" Type="VI" URL="../子vi/mes/SOAP解析.vi"/>
 			<Item Name="保存mes.vi" Type="VI" URL="../子vi/mes/保存mes.vi"/>
 			<Item Name="持续时间&amp;充气时间.vi" Type="VI" URL="../子vi/mes/持续时间&amp;充气时间.vi"/>
+			<Item Name="设备状态接口.lvlib" Type="Library" URL="../子vi/mes/设备状态接口.lvlib"/>
 			<Item Name="时间计算.vi" Type="VI" URL="../子vi/mes/时间计算.vi"/>
 			<Item Name="是否保存.vi" Type="VI" URL="../子vi/mes/是否保存.vi"/>
 			<Item Name="运行状态时间点索引.vi" Type="VI" URL="../子vi/mes/运行状态时间点索引.vi"/>
@@ -41,6 +42,9 @@
 			<Item Name="开机连接.vi" Type="VI" URL="../子vi/modbus/开机连接.vi"/>
 			<Item Name="写保持寄存器.vi" Type="VI" URL="../子vi/modbus/写保持寄存器.vi"/>
 		</Item>
+		<Item Name="Timer" Type="Folder">
+			<Item Name="Time.lvclass" Type="LVClass" URL="../子vi/Timer/Time.lvclass"/>
+		</Item>
 		<Item Name="子vi" Type="Folder">
 			<Item Name="Global.vi" Type="VI" URL="../子vi/Global.vi"/>
 			<Item Name="log.vi" Type="VI" URL="../子vi/log.vi"/>
@@ -49,6 +53,7 @@
 			<Item Name="mes~产品加工参数采集.vi" Type="VI" URL="../子vi/mes/mes~产品加工参数采集.vi"/>
 			<Item Name="mes~产品进站.vi" Type="VI" URL="../子vi/mes/mes~产品进站.vi"/>
 			<Item Name="mes~设备状态采集.vi" Type="VI" URL="../子vi/mes/mes~设备状态采集.vi"/>
+			<Item Name="本地控制.vi" Type="VI" URL="../子vi/本地控制.vi"/>
 			<Item Name="用户登录.vi" Type="VI" URL="../子vi/用户登录/用户登录.vi"/>
 		</Item>
 		<Item Name="仁莫密封检测系统.vi" Type="VI" URL="../仁莫密封检测系统.vi"/>
@@ -405,7 +410,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
@@ -480,7 +485,7 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Parse XML dateTime String__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML dateTime String__JKI EasyXML.vi"/>
 				<Item Name="Parse XML for Tags__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML for Tags__JKI EasyXML.vi"/>
 				<Item Name="Parse XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML__JKI EasyXML.vi"/>
@@ -664,7 +669,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F8379E6-F4DF-4F19-881C-A12D2AA0041F}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">仁莫密封检测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
