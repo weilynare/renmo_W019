@@ -39,6 +39,7 @@
 		</Item>
 		<Item Name="modbus" Type="Folder">
 			<Item Name="保持寄存器解析.vi" Type="VI" URL="../子vi/modbus/保持寄存器解析.vi"/>
+			<Item Name="读保持寄存器.vi" Type="VI" URL="../子vi/modbus/读保持寄存器.vi"/>
 			<Item Name="开机连接.vi" Type="VI" URL="../子vi/modbus/开机连接.vi"/>
 			<Item Name="写保持寄存器.vi" Type="VI" URL="../子vi/modbus/写保持寄存器.vi"/>
 		</Item>
@@ -48,12 +49,14 @@
 		<Item Name="子vi" Type="Folder">
 			<Item Name="Global.vi" Type="VI" URL="../子vi/Global.vi"/>
 			<Item Name="log.vi" Type="VI" URL="../子vi/log.vi"/>
+			<Item Name="log_simple.vi" Type="VI" URL="../子vi/log_simple.vi"/>
 			<Item Name="mes~Login Dialog.vi" Type="VI" URL="../子vi/用户登录/mes~Login Dialog.vi"/>
 			<Item Name="mes~产品出站.vi" Type="VI" URL="../子vi/mes/mes~产品出站.vi"/>
 			<Item Name="mes~产品加工参数采集.vi" Type="VI" URL="../子vi/mes/mes~产品加工参数采集.vi"/>
 			<Item Name="mes~产品进站.vi" Type="VI" URL="../子vi/mes/mes~产品进站.vi"/>
 			<Item Name="mes~设备状态采集.vi" Type="VI" URL="../子vi/mes/mes~设备状态采集.vi"/>
 			<Item Name="本地控制.vi" Type="VI" URL="../子vi/本地控制.vi"/>
+			<Item Name="温湿度采集.vi" Type="VI" URL="../子vi/温湿度/温湿度采集.vi"/>
 			<Item Name="用户登录.vi" Type="VI" URL="../子vi/用户登录/用户登录.vi"/>
 		</Item>
 		<Item Name="仁莫密封检测系统.vi" Type="VI" URL="../仁莫密封检测系统.vi"/>
@@ -545,7 +548,6 @@
 				<Item Name="XML Tag Type - Enum__JKI EasyXML.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Tag Type - Enum__JKI EasyXML.ctl"/>
 			</Item>
 			<Item Name="check.vi" Type="VI" URL="../子vi/用户登录/check.vi"/>
-			<Item Name="读保持寄存器.vi" Type="VI" URL="../子vi/modbus/读保持寄存器.vi"/>
 			<Item Name="读取配置文件.vi" Type="VI" URL="../子vi/config/读取配置文件.vi"/>
 			<Item Name="读线圈组.vi" Type="VI" URL="../子vi/modbus/读线圈组.vi"/>
 			<Item Name="扫码页面.vi" Type="VI" URL="../子vi/扫码/扫码页面.vi"/>
@@ -669,7 +671,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2F8379E6-F4DF-4F19-881C-A12D2AA0041F}</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">仁莫密封检测系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/NI_AB_PROJECTNAME.exe</Property>
